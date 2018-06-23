@@ -10,7 +10,14 @@ Live Demo [hosted on Github Pages](https://aisling0.github.io/Sims4Pal_App/)
 ## Getting started / Deployment
 
 * To run this app locally, please clone or download this repository.
-* Run 
+* Install http-server:
+```
+npm install -g http-server
+```
+* Open Command Prompt in the base directory and run:
+```
+http-serer
+```
 
 
 ## Built With
