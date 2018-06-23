@@ -9,38 +9,38 @@ angular.module('Sims4Pal')
     templateUrl: 'resources/home.html',
     controller: 'HomeController'
   })
-  .when('/home', {
+  .when('/Sims4Pal_App/home', {
     templateUrl: 'resources/home.html',
   })
-  .when('/cheats', {
+  .when('/Sims4Pal_App/cheats', {
     templateUrl: 'resources/cheatspage.html',
     controller: 'CheatsController'
   })
-  .when('/mods', {
+  .when('/Sims4Pal_App/mods', {
     templateUrl: 'resources/customContent.html',
     controller: 'PanelController'
   })
-  .when('/collections', {
+  .when('/Sims4Pal_App/collections', {
     templateUrl: 'resources/collections.html',
     controller: 'TableController'
   })
-  .when('/guides', {
+  .when('/Sims4Pal_App/guides', {
     templateUrl: 'resources/guides.html',
     controller: 'AccordionDemoCtrl'
   })
-  .when('/accounts/register', {
+  .when('/Sims4Pal_App/accounts/register', {
     templateUrl: 'resources/register.html',
     controller: 'RegisterController'
   })
-  .when('/accounts/login', {
+  .when('/Sims4Pal_App/accounts/login', {
     templateUrl: 'resources/login.html',
   })
-  .when('/accounts/logout', {
+  .when('/Sims4Pal_App/accounts/logout', {
     templateUrl: 'resources/logout.html',
     controller: 'LogoutController'
   })
   .otherwise({
-    redirectTo: '/'
+    redirectTo: '/Sims4Pal_App/'
   }); // if not above path
 });
 
