@@ -18,6 +18,7 @@ npm install -g http-server
 ```
 http-serer
 ```
+* Open localhost:8080 in your browser
 
 
 ## Built With
