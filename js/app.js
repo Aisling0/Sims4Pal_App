@@ -9,7 +9,7 @@ angular.module('Sims4Pal')
     templateUrl: 'resources/home.html',
     controller: 'HomeController'
   })
-  .when('/home', {
+  .when('/Sims4Pal_App/home', {
     templateUrl: 'resources/home.html',
   })
   .when('/cheats', {
