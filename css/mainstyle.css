@@ -124,6 +124,9 @@ h4 :hover,h4 :focus{
 }
 
 /* ------------------HomePage------------------------*/
+.text-center {
+    margin-top: 30px;
+}
 .img-circle {
     border-radius: 50%;
     width: 200px;
