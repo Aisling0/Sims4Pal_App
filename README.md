@@ -16,7 +16,7 @@ npm install -g http-server
 ```
 * Open Command Prompt in the base directory and run:
 ```
-http-serer
+http-server -c-1
 ```
 * Open localhost:8080 in your browser
 
